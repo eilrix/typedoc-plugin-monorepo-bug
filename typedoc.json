@@ -1,0 +1,8 @@
+{
+    "out": "./docs",
+    "external-modulemap": ".*packages\/([^\/]+)\/.*",
+    "entryPoints": [
+        "./packages"
+    ],
+    "tsconfig": "./tsconfig.json"
+}

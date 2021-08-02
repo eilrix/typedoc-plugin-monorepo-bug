@@ -1,0 +1,22 @@
+{
+  "name": "typedoc-plugin-monorepo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "generate": "npx typedoc  --options typedoc.json",
+    "rm-docs": "rmdir /q /s docs"
+  },
+  "devDependencies": {
+    "@strictsoftware/typedoc-plugin-monorepo": "^0.4.2",
+    "@types/node": "^14.14.25",
+    "typedoc": "^0.21.5",
+    "typescript": "^4.3.5"
+  }
+}
